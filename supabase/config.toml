@@ -1,0 +1,10 @@
+project_id = "dsu-sales-agent"
+
+[functions.ingest-source]
+verify_jwt = true
+
+[functions.qualify-prospect]
+verify_jwt = true
+
+[functions.generate-draft]
+verify_jwt = true
